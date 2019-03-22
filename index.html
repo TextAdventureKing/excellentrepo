@@ -92,7 +92,7 @@
     <script type="text/javascript">
       window.onload = function() {
         var excellentPath = location.pathname;
-        var excellentIntPhrase = excellentPath.substring(1).split('/');
+        var excellentIntPhrase = excellentPath.substring(1).split('?');
         var excellentPhrase = decodeURI(excellentIntPhrase.join(" "));
         var excellentSFX = document.getElementById("excellentSFX");
         var excellentTag = document.getElementById("excellentText");
