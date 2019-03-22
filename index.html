@@ -85,7 +85,7 @@
       <div id="floater"></div>
       <div id="excellentImageTagline">
       <img id="excellentChef" src="/excellentAssets/TheFaceOfExcellence.png"/>
-      <div id="excellentText">'An Excellent <span id="excellentPhrase"></span>'</div>
+      <div id="excellentText">'<span id="excellentPhrase"></span>'</div>
       </div>
     </div>
 
@@ -97,7 +97,7 @@
         var excellentSFX = document.getElementById("excellentSFX");
         var excellentTag = document.getElementById("excellentText");
         var excellentElement = document.getElementById("excellentPhrase");
-        if (excellentPhrase === "") { excellentPhrase = "Website"; }
+        if (excellentPhrase === "") { excellentPhrase = "An Excellent Website"; }
         var excellentPhraseNode = document.createTextNode(excellentPhrase);
         excellentElement.appendChild(excellentPhraseNode);
         excellentSFX.play();
